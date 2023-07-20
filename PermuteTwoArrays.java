@@ -1,8 +1,7 @@
 import java.util.*;
 
 class HelloWorld{
-static boolean isPossible(Integer a[], int b[],
-								int n, int k){
+static boolean isPossible(Integer a[], int b[],int n, int k){
 	// Sort the array a[] in decreasing order.
 	Arrays.sort(a, Collections.reverseOrder());
 
